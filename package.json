@@ -1,0 +1,23 @@
+{
+  "name": "calendre",
+  "version": "1.0.0",
+  "description": "<div>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evturn/calendre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evturn/calendre/issues"
+  },
+  "homepage": "https://github.com/evturn/calendre",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
