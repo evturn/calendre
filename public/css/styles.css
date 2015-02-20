@@ -14,7 +14,6 @@ h3 {
 #month-wrapper {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid pink;
 }
 
 .day-of-week {
@@ -24,15 +23,14 @@ h3 {
 
 .num-in-month {
   padding-bottom: 50px;
-  padding-right: 5px;
-  border-top: 1px solid pink;
-  border-right: 1px solid pink;
-  left: 0;
+  padding-left: 0px;
+  border-right: 1px solid black;
 }
 
-.row {
+.num-row {
   margin-right: 0px;
   margin-left: 0px;
+  border-top: 1px solid black;
 }
 
 #container-wrapper {
