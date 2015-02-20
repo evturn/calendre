@@ -1,0 +1,25 @@
+body {
+  color: black;
+  background-color: rgb(74, 173, 255);
+}
+
+.month-name {
+  text-align: center;
+}
+
+#month-wrapper {
+  width: 80%;
+  margin-left: 5%;
+  border: 1px solid pink;
+}
+
+.day-of-week {
+  text-align: right;
+}
+
+.row {
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top: 1px solid pink;
+}
