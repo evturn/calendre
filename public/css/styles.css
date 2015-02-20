@@ -3,6 +3,10 @@ body {
   background-color: rgb(74, 173, 255);
 }
 
+h2 {
+  text-align: center;
+}
+
 h3 {
   text-align: center;
 }
@@ -47,4 +51,23 @@ h3 {
   font-size: 50px;
   opacity: 0.4;
   z-index: -2;
+}
+
+#year-wrapper {
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 500px;
+}
+
+ul {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 55px;
 }
