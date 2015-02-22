@@ -11,9 +11,6 @@ h3 {
   text-align: center;
 }
 
-.month-name {
-  text-align: center;
-}
 
 #month-wrapper {
   width: 80%;
@@ -73,12 +70,19 @@ ul li {
   padding: 55px;
 }
 
-.day-wrapper {
+#day-wrapper {
   width: 80%;
   margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 500px;
+  margin-bottom: 500px;
 }
 
 .thumbnail-img {
   height: 150px;
   width: 150px;
+}
+
+.img-event-title {
+  text-align: center;
 }
