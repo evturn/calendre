@@ -1,6 +1,6 @@
 body {
   color: black;
-  background-color: rgb(74, 173, 255);
+  background-color: lightblue;
 }
 
 h2 {
@@ -79,6 +79,7 @@ ul li {
   border: 1px solid black;
   margin-top: 500px;
   margin-bottom: 500px;
+  background-color: white;
 }
 
 .thumbnail-img {
