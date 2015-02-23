@@ -42,6 +42,7 @@ h3 {
   border: 1px solid black;
   margin: 0 auto;
   margin-bottom: 10%;
+  background-color: white;
 }
 
 #year {
@@ -56,6 +57,7 @@ h3 {
   border: 1px solid black;
   margin: 0 auto;
   margin-bottom: 500px;
+  background-color: white;
 }
 
 ul {
@@ -68,6 +70,7 @@ ul li {
   display: inline-block;
   border: 1px solid black;
   padding: 55px;
+  border-radius: 5px;
 }
 
 #day-wrapper {
@@ -81,6 +84,7 @@ ul li {
 .thumbnail-img {
   height: 150px;
   width: 150px;
+  border-radius: 5px;
 }
 
 .img-event-title {
