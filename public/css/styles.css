@@ -27,8 +27,19 @@ table {
   margin: 0 auto;
 }
 
+.day-in-week {
+  vertical-align: bottom;
+  text-align: right;
+  height: 5px;
+  padding-right: 3px;
+}
+
 th {
   text-align: center;
+}
+
+td {
+  vertical-align:bottom;
 }
 
 .year {
