@@ -1,6 +1,6 @@
 $(function() {
   $(".event-1").click(function(){
-    $("#a-container").show();
+    $("#a-container").slideToggle();
   });
   console.log("hello, world");
 });
