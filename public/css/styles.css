@@ -76,7 +76,6 @@ ul li {
   width: 80%;
   margin: 0 auto;
   margin-top: 500px;
-  margin-bottom: 500px;
   background-color: white;
 }
 
@@ -92,4 +91,17 @@ ul li {
 
 .img-event-title {
   text-align: center;
+}
+
+.test-img {
+  width: 100px;
+  height: 100px;
+}
+
+.test-li {
+  border: none;
+}
+
+#a-container {
+  display: none;
 }

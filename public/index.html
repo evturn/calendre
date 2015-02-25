@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./css/lib/bootstrap.css">
   <link rel="stylesheet" href="./css/lib/bootstrap-theme.css">
   <link rel="stylesheet" href="./css/lib/fullcalendar.css">
+  <link rel="stylesheet" href="./css/lib/lightbox.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -115,25 +116,47 @@
     <div id="day-wrapper">
       <h3>March 5, 2015</h3>
       <div class="row">
-        <div class="col-xs-6 col-md-4 img-event-title">
+        <div class="col-xs-6 col-md-4 img-event-title event-1">
           <a href="">
             <img src="./images/bedside.jpg" class="thumbnail-img">
           </a>
           <p class="album-title">Event 1</p>
         </div>
-        <div class="col-xs-6 col-md-4 img-event-title"> 
+        <div class="col-xs-6 col-md-4 img-event-title event-2"> 
           <a href="">
             <img src="./images/bedside.jpg" class="thumbnail-img">
           </a>
           <p class="album-title">Event 2</p>
         </div>
-        <div class="col-xs-6 col-md-4 img-event-title"> 
+        <div class="col-xs-6 col-md-4 img-event-title event-3"> 
           <a href="">
             <img src="./images/bedside.jpg" class="thumbnail-img">
           </a>
           <p class="album-title">Event 3</p>
         </div>
       </div>
+
+      <div id="a-container">
+        <ul>
+          <li class="test-li">
+            <a href="./images/a.jpg" data-lightbox="test">
+              <img src="./images/a.jpg" class="test-img">
+            </a>
+          </li>
+          <li class="test-li">
+            <a href="./images/b.jpg" data-lightbox="test">
+              <img src="./images/b.jpg" class="test-img">
+            </a>
+          </li>
+          <li class="test-li">
+            <a href="./images/c.png" data-lightbox="test">
+              <img src="./images/c.png" class="test-img">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
       <div class="row">
         <div class="col-xs-6 col-md-4 img-event-title">
           <a href="">
@@ -157,12 +180,12 @@
     </div>
   </div>
 
-
   <script src="./js/lib/jquery.min.js"></script>
   <script src="./js/lib/underscore.js"></script>
   <script src="./js/lib/backbone.js"></script>
   <script src="./js/lib/moment.js"></script>
   <script src="./js/lib/fullcalendar.js"></script>
   <script src="./js/lib/bootstrap.js"></script>
+  <script src="./js/lib/lightbox.min.js"></script>
 </body>
 </html>
