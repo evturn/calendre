@@ -106,6 +106,14 @@ ul li {
   border: none;
 }
 
-#a-container {
+#event1-container {
+  display: none;
+}
+
+#event2-container {
+  display: none;
+}
+
+#event3-container {
   display: none;
 }
