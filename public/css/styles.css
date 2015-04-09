@@ -48,6 +48,9 @@ td {
   font-size: 32px;
 }
 
+.doesexist {
+  font-size: .1em;
+}
 
 #year-container {
   width: 80%;
