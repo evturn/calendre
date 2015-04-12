@@ -51,6 +51,7 @@ p {
   font-size: 14px;
 }
 .cal1 .clndr .clndr-controls {
+  text-align: center;
   display: inline-block;
   width: 100%;
   position: relative;
