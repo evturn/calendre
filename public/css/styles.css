@@ -1,3 +1,11 @@
+.clndr-controls {
+  text-align: center;
+}
+
+.clndr-control-button {
+  background-color: lightgrey;
+}
+
 body {
   color: black;
   background-color: lightblue;

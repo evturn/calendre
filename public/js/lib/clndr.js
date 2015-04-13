@@ -39,7 +39,7 @@
 
   // This is the default calendar template. This can be overridden.
   var clndrTemplate = "<div class='clndr-controls'>" +
-    "<div class='clndr-control-button'><span class='clndr-previous-button'>previous</span></div><div class='month'><%= month %> <%= year %></div><div class='clndr-control-button rightalign'><span class='clndr-next-button'>next</span></div>" +
+    "<div class='clndr-control-button'><button class='clndr-previous-button'>previous</button></div><div class='month'><%= month %> <%= year %></div><div class='clndr-control-button rightalign'><button class='clndr-next-button'>next</button></div>" +
     "</div>" +
   "<table class='clndr-table' border='0' cellspacing='0' cellpadding='0'>" +
     "<thead>" +
