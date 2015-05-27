@@ -3,10 +3,14 @@ var logger    = require('morgan');
 var appRouter = require('./routes/app-router');
 var root      = __dirname + '/public';
 var app 		  = express();
+var hbs       = require('./config/handlebars');
+
+app.set('view engine', 'hbs');
+app.set('views', 'views');
+app.engine('hbs', hbs.engine);
 
 app.use(express.static(root));
 app.use(logger('dev'));
-
 
 app.use('/', appRouter);
 
