@@ -1,3 +1,11 @@
+.clndr-controls {
+  text-align: center;
+}
+
+.clndr-control-button {
+  background-color: lightgrey;
+}
+
 body {
   color: black;
   background-color: lightblue;
@@ -48,6 +56,10 @@ td {
   font-size: 32px;
 }
 
+.doesexist {
+  font-size: .1em;
+}
+
 #year-container {
   width: 80%;
   margin: 0 auto;
@@ -69,7 +81,7 @@ ul li {
   display: inline-block;
   border: 1px solid black;
   padding: 55px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 #day-container {

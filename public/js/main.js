@@ -11,4 +11,6 @@ $(function() {
     $("#event3-container").slideToggle();
   });
   console.log("hello, world");
+
+  $('#calendar').clndr();
 });
